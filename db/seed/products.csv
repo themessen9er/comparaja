@@ -1,0 +1,364 @@
+id,vertical_id,provider_id,is_sponsored,data
+1,1,4,TRUE,"{
+        ""p"":4,
+        ""internet_download_speed_in_mbs"":100,
+        ""internet_upload_speed_in_mbs"":40,
+        ""tv_channels"":120,        
+        ""mobile_phone_count"":1,
+        ""mobile_phone_data_in_gbps"":5,
+        ""price"":29.99
+}"
+2,1,4,FALSE,"{
+        ""p"":4,
+        ""internet_download_speed_in_mbs"":200,
+        ""internet_upload_speed_in_mbs"":100,
+        ""tv_channels"":120,        
+        ""mobile_phone_count"":1,
+        ""mobile_phone_data_in_gbps"":5,
+        ""price"":39.99
+}"
+3,1,4,FALSE,"{
+        ""p"":4,
+        ""internet_download_speed_in_mbs"":500,
+        ""internet_upload_speed_in_mbs"":200,
+        ""tv_channels"":120,        
+        ""mobile_phone_count"":1,
+        ""mobile_phone_data_in_gbps"":10,
+        ""price"":69.99
+}"
+4,1,4,FALSE,"{
+        ""p"":4,
+        ""internet_download_speed_in_mbs"":500,
+        ""internet_upload_speed_in_mbs"":200,
+        ""tv_channels"":120,        
+        ""mobile_phone_count"":2,
+        ""mobile_phone_data_in_gbps"":10,
+        ""price"":59.99
+}"
+5,1,4,FALSE,"{
+        ""p"":4,
+        ""internet_download_speed_in_mbs"":500,
+        ""internet_upload_speed_in_mbs"":200,
+        ""tv_channels"":120,        
+        ""mobile_phone_count"":4,
+        ""mobile_phone_data_in_gbps"":5,
+        ""price"":89.99
+}"
+6,1,4,FALSE,"{
+        ""p"":4,
+        ""internet_download_speed_in_mbs"":1000,
+        ""internet_upload_speed_in_mbs"":400,
+        ""tv_channels"":120,        
+        ""mobile_phone_count"":1,
+        ""mobile_phone_data_in_gbps"":2,
+        ""price"":59.99
+}"
+7,1,4,FALSE,"{
+        ""p"":3,
+        ""internet_download_speed_in_mbs"":1000,
+        ""internet_upload_speed_in_mbs"":400,
+        ""tv_channels"":120,        
+        ""mobile_phone_count"":0,
+        ""mobile_phone_data_in_gbps"":null,
+        ""price"":39.99
+}"
+8,1,4,FALSE,"{
+        ""p"":3,
+        ""internet_download_speed_in_mbs"":500,
+        ""internet_upload_speed_in_mbs"":200,
+        ""tv_channels"":120,        
+        ""mobile_phone_count"":0,
+        ""mobile_phone_data_in_gbps"":null,
+        ""price"":29.99
+}"
+9,1,6,FALSE,"{
+        ""p"":4,
+        ""internet_download_speed_in_mbs"":100,
+        ""internet_upload_speed_in_mbs"":40,
+        ""tv_channels"":130,        
+        ""mobile_phone_count"":1,
+        ""mobile_phone_data_in_gbps"":7,
+        ""price"":29.99
+}"
+10,1,6,TRUE,"{
+        ""p"":4,
+        ""internet_download_speed_in_mbs"":200,
+        ""internet_upload_speed_in_mbs"":100,
+        ""tv_channels"":130,        
+        ""mobile_phone_count"":1,
+        ""mobile_phone_data_in_gbps"":7,
+        ""price"":39.99
+}"
+11,1,6,FALSE,"{
+        ""p"":4,
+        ""internet_download_speed_in_mbs"":500,
+        ""internet_upload_speed_in_mbs"":200,
+        ""tv_channels"":130,        
+        ""mobile_phone_count"":1,
+        ""mobile_phone_data_in_gbps"":10,
+        ""price"":69.99
+}"
+12,1,6,FALSE,"{
+        ""p"":4,
+        ""internet_download_speed_in_mbs"":500,
+        ""internet_upload_speed_in_mbs"":200,
+        ""tv_channels"":130,        
+        ""mobile_phone_count"":2,
+        ""mobile_phone_data_in_gbps"":10,
+        ""price"":59.99
+}"
+13,1,6,FALSE,"{
+        ""p"":4,
+        ""internet_download_speed_in_mbs"":500,
+        ""internet_upload_speed_in_mbs"":200,
+        ""tv_channels"":130,        
+        ""mobile_phone_count"":4,
+        ""mobile_phone_data_in_gbps"":7,
+        ""price"":89.99
+}"
+14,1,6,FALSE,"{
+        ""p"":4,
+        ""internet_download_speed_in_mbs"":1000,
+        ""internet_upload_speed_in_mbs"":400,
+        ""tv_channels"":130,        
+        ""mobile_phone_count"":1,
+        ""mobile_phone_data_in_gbps"":3,
+        ""price"":59.99
+}"
+15,1,6,FALSE,"{
+        ""p"":3,
+        ""internet_download_speed_in_mbs"":1000,
+        ""internet_upload_speed_in_mbs"":400,
+        ""tv_channels"":130,        
+        ""mobile_phone_count"":0,
+        ""mobile_phone_data_in_gbps"":null,
+        ""price"":39.99
+}"
+16,1,5,FALSE,"{
+        ""p"":4,
+        ""internet_download_speed_in_mbs"":500,
+        ""internet_upload_speed_in_mbs"":200,
+        ""tv_channels"":120,        
+        ""mobile_phone_count"":2,
+        ""mobile_phone_data_in_gbps"":10,
+        ""price"":59.99
+}"
+17,1,5,FALSE,"{
+        ""p"":4,
+        ""internet_download_speed_in_mbs"":500,
+        ""internet_upload_speed_in_mbs"":200,
+        ""tv_channels"":120,        
+        ""mobile_phone_count"":4,
+        ""mobile_phone_data_in_gbps"":5,
+        ""price"":89.99
+}"
+18,1,5,FALSE,"{
+        ""p"":4,
+        ""internet_download_speed_in_mbs"":1000,
+        ""internet_upload_speed_in_mbs"":400,
+        ""tv_channels"":120,        
+        ""mobile_phone_count"":1,
+        ""mobile_phone_data_in_gbps"":2,
+        ""price"":59.99
+}"
+19,1,5,FALSE,"{
+        ""p"":3,
+        ""internet_download_speed_in_mbs"":1000,
+        ""internet_upload_speed_in_mbs"":400,
+        ""tv_channels"":120,        
+        ""mobile_phone_count"":0,
+        ""mobile_phone_data_in_gbps"":null,
+        ""price"":39.99
+}"
+20,1,5,FALSE,"{
+        ""p"":3,
+        ""internet_download_speed_in_mbs"":500,
+        ""internet_upload_speed_in_mbs"":200,
+        ""tv_channels"":120,        
+        ""mobile_phone_count"":0,
+        ""mobile_phone_data_in_gbps"":null,
+        ""price"":29.99
+}"
+21,1,7,FALSE,"{
+        ""p"":4,
+        ""internet_download_speed_in_mbs"":500,
+        ""internet_upload_speed_in_mbs"":200,
+        ""tv_channels"":120,        
+        ""mobile_phone_count"":2,
+        ""mobile_phone_data_in_gbps"":10,
+        ""price"":49.99
+}"
+22,1,7,FALSE,"{
+        ""p"":4,
+        ""internet_download_speed_in_mbs"":500,
+        ""internet_upload_speed_in_mbs"":200,
+        ""tv_channels"":120,        
+        ""mobile_phone_count"":4,
+        ""mobile_phone_data_in_gbps"":5,
+        ""price"":79.99
+}"
+23,1,7,FALSE,"{
+        ""p"":4,
+        ""internet_download_speed_in_mbs"":1000,
+        ""internet_upload_speed_in_mbs"":400,
+        ""tv_channels"":120,        
+        ""mobile_phone_count"":1,
+        ""mobile_phone_data_in_gbps"":2,
+        ""price"":49.99
+}"
+24,1,7,FALSE,"{
+        ""p"":3,
+        ""internet_download_speed_in_mbs"":1000,
+        ""internet_upload_speed_in_mbs"":400,
+        ""tv_channels"":120,        
+        ""mobile_phone_count"":0,
+        ""mobile_phone_data_in_gbps"":null,
+        ""price"":29.99
+}"
+25,1,7,FALSE,"{
+        ""p"":3,
+        ""internet_download_speed_in_mbs"":500,
+        ""internet_upload_speed_in_mbs"":200,
+        ""tv_channels"":120,        
+        ""mobile_phone_count"":0,
+        ""mobile_phone_data_in_gbps"":null,
+        ""price"":19.99
+}"
+26,1,8,TRUE,"{
+        ""p"":4,
+        ""internet_download_speed_in_mbs"":200,
+        ""internet_upload_speed_in_mbs"":100,
+        ""tv_channels"":130,        
+        ""mobile_phone_count"":1,
+        ""mobile_phone_data_in_gbps"":7,
+        ""price"":39.99
+}"
+27,1,8,FALSE,"{
+        ""p"":4,
+        ""internet_download_speed_in_mbs"":500,
+        ""internet_upload_speed_in_mbs"":200,
+        ""tv_channels"":130,        
+        ""mobile_phone_count"":1,
+        ""mobile_phone_data_in_gbps"":10,
+        ""price"":69.99
+}"
+28,1,8,FALSE,"{
+        ""p"":4,
+        ""internet_download_speed_in_mbs"":500,
+        ""internet_upload_speed_in_mbs"":200,
+        ""tv_channels"":130,        
+        ""mobile_phone_count"":2,
+        ""mobile_phone_data_in_gbps"":10,
+        ""price"":59.99
+}"
+29,1,8,FALSE,"{
+        ""p"":4,
+        ""internet_download_speed_in_mbs"":500,
+        ""internet_upload_speed_in_mbs"":200,
+        ""tv_channels"":130,        
+        ""mobile_phone_count"":4,
+        ""mobile_phone_data_in_gbps"":7,
+        ""price"":89.99
+}"
+30,1,8,FALSE,"{
+        ""p"":4,
+        ""internet_download_speed_in_mbs"":1000,
+        ""internet_upload_speed_in_mbs"":400,
+        ""tv_channels"":130,        
+        ""mobile_phone_count"":1,
+        ""mobile_phone_data_in_gbps"":3,
+        ""price"":59.99
+}"
+31,1,8,FALSE,"{
+        ""p"":3,
+        ""internet_download_speed_in_mbs"":1000,
+        ""internet_upload_speed_in_mbs"":400,
+        ""tv_channels"":130,        
+        ""mobile_phone_count"":0,
+        ""mobile_phone_data_in_gbps"":null,
+        ""price"":39.99
+}"
+32,2,1,FALSE,"{
+       ""tan_percentage"":14.1,
+       ""taeg_percentage"":15.6,
+       ""commission_in_euros"":0,
+       ""offer_type"":""cashback""
+}"
+33,2,1,FALSE,"{
+       ""tan_percentage"":14.1,
+       ""taeg_percentage"":15.6,
+       ""commission_in_euros"":0,
+       ""offer_type"":""discounts""
+}"
+34,2,2,TRUE,"{
+       ""tan_percentage"":14.0,
+       ""taeg_percentage"":15.3,
+       ""commission_in_euros"":0,
+       ""offer_type"":""cashback""
+}"
+35,2,2,FALSE,"{
+       ""tan_percentage"":14.0,
+       ""taeg_percentage"":15.3,
+       ""commission_in_euros"":0,
+       ""offer_type"":""discounts""
+}"
+36,2,3,FALSE,"{
+       ""tan_percentage"":14.1,
+       ""taeg_percentage"":15.6,
+       ""commission_in_euros"":0,
+       ""offer_type"":""cashback""
+}"
+37,2,3,FALSE,"{
+       ""tan_percentage"":14.1,
+       ""taeg_percentage"":15.6,
+       ""commission_in_euros"":0,
+       ""offer_type"":""discounts""
+}"
+38,3,9,TRUE,"{
+      ""taeg_percentage"":2.2,
+      ""min_loan_amount"":40000,
+      ""max_loan_amount"":1000000,
+      ""min_term_in_months"":120,
+      ""max_term_in_months"":480,
+      ""min_income"":1000
+}"
+39,3,9,FALSE,"{
+      ""taeg_percentage"":1.8,
+      ""min_loan_amount"":40000,
+      ""max_loan_amount"":1000000,
+      ""min_term_in_months"":120,
+      ""max_term_in_months"":480,
+      ""min_income"":2000
+}"
+40,3,10,FALSE,"{
+      ""taeg_percentage"":2.2,
+      ""min_loan_amount"":40000,
+      ""max_loan_amount"":1000000,
+      ""min_term_in_months"":120,
+      ""max_term_in_months"":480,
+      ""min_income"":1000
+}"
+41,3,10,FALSE,"{
+      ""taeg_percentage"":1.8,
+      ""min_loan_amount"":40000,
+      ""max_loan_amount"":1000000,
+      ""min_term_in_months"":120,
+      ""max_term_in_months"":480,
+      ""min_income"":2000
+}"
+42,3,11,FALSE,"{
+      ""taeg_percentage"":2.2,
+      ""min_loan_amount"":40000,
+      ""max_loan_amount"":1000000,
+      ""min_term_in_months"":120,
+      ""max_term_in_months"":480,
+      ""min_income"":1000
+}"
+43,3,11,FALSE,"{
+      ""taeg_percentage"":1.8,
+      ""min_loan_amount"":40000,
+      ""max_loan_amount"":1000000,
+      ""min_term_in_months"":120,
+      ""max_term_in_months"":480,
+      ""min_income"":2000
+}"

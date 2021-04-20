@@ -1,0 +1,64 @@
+version: "3.7"
+services:
+  
+  # The backend service running the API
+  backend:
+    build: backend
+    depends_on:
+      - "db"
+    ports:
+      - ${BACKEND_PORT}:5000
+    environment:
+      - POSTGRES_DB=${DB_NAME}
+      - POSTGRES_PASSWORD_FILE=/run/secrets/db-password
+      - POSTGRES_USER_FILE=/run/secrets/db-username
+    command: ["./wait-for-it.sh", "db:5432", "--", "flask", "run", "--host=0.0.0.0"]
+    secrets:
+      - db-password
+      - db-username
+    networks:
+      - comparaja-nw
+
+  # The backend service running the API
+  frontend:
+    build: frontend
+    depends_on:
+      - "backend"
+    ports:
+      - ${FRONTEND_PORT}:8080
+    environment:
+      - VUE_APP_API_BASE_URI=${PUBLIC_BACKEND_BASE_URI}
+    networks:
+      - comparaja-nw
+
+  # The postgres database service
+  db:
+    image: postgres:13-alpine
+    restart: always
+    ports:
+      - ${DB_PORT}:5432
+    secrets:
+      - db-password
+      - db-username
+    volumes:
+      - db-data:/var/lib/postgresql/data
+      # The database seed data and schema location
+      - ./db/seed:/docker-entrypoint-initdb.d
+    networks:
+      - comparaja-nw
+    environment:
+      - POSTGRES_DB=${DB_NAME}
+      - POSTGRES_PASSWORD_FILE=/run/secrets/db-password
+      - POSTGRES_USER_FILE=/run/secrets/db-username
+
+volumes:
+  db-data:
+
+secrets:
+  db-password:
+    file: db/password.txt
+  db-username:
+    file: db/username.txt
+
+networks:
+  comparaja-nw:

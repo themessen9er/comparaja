@@ -1,0 +1,17 @@
+#App container
+Flask
+flask-cors
+
+#Orm
+SQLAlchemy==1.3.24
+Flask-SQLAlchemy==2.4.3
+
+#pgsql driver
+psycopg2
+
+#Marshaller
+Flask-Marshmallow
+marshmallow-sqlalchemy
+
+#search filter utility
+sqlalchemy-filters
